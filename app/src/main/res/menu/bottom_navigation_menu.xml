@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_1"
+        android:title="Inicio"
+        android:enabled="true"
+        android:icon="@drawable/ic_house" />
+
+    <item
+        android:id="@+id/item_2"
+        android:title="Monitoreo"
+        android:enabled="true"
+        android:icon="@drawable/ic_monitor" />
+
+    <item
+        android:id="@+id/item_3"
+        android:title="Contactos de emergencia"
+        android:enabled="true"
+        android:icon="@drawable/ic_contact_emergency" />
+
+    <item
+        android:id="@+id/item_4"
+        android:title="Alertas y Notificaciones"
+        android:enabled="true"
+        android:icon="@drawable/ic_notification" />
+
+    <item
+        android:id="@+id/item_5"
+        android:title="Perfil "
+        android:enabled="true"
+        android:icon="@drawable/ic_perfil" />
+
+
+
+
+</menu>

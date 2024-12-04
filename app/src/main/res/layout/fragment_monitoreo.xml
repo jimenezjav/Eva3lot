@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/monitoreo_img"
+    tools:context=".Vistas.MonitoreoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/textViewTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MONITOREO DE SALUD"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <!-- Ritmo Cardíaco -->
+        <TextView
+            android:id="@+id/textViewRitmoCardiaco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary"
+            android:text="Ritmo Cardíaco: -- bpm"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textViewEstadoRitmo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Estado: --"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Temperatura -->
+        <TextView
+            android:id="@+id/textViewTemperatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary"
+            android:text="Temperatura: -- °C"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textViewEstadoTemperatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Estado: --"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Presión Arterial -->
+        <TextView
+            android:id="@+id/textViewPresionArterial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary"
+            android:text="Presión Arterial: -- / -- mmHg"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textViewEstadoPresion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Estado: --"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Botón para iniciar monitoreo -->
+        <Button
+            android:id="@+id/buttonIniciarMonitoreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Monitoreo"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+</FrameLayout>

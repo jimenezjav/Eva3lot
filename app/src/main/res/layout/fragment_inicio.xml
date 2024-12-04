@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lista_img"
+    android:padding="16dp"
+    tools:context=".Vistas.InicioFragment">
+
+    <!-- Contenedor principal para la información -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- Título del sistema -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sistema de Monitoreo de Salud"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="16dp"
+                android:textColor="@android:color/black" />
+
+            <!-- Descripción del sistema -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¡Bienvenido a PulseAlert! Con nuestro innovador sistema de monitoreo continuo de signos vitales, estarás siempre protegido."
+                android:textSize="16sp"
+                android:lineSpacingExtra="8dp"
+                android:gravity="start"
+                android:layout_marginBottom="16dp"
+                android:textColor="@android:color/black" />
+
+            <!-- Beneficios del sistema -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beneficios:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="start"
+                android:layout_marginBottom="8dp"
+                android:textColor="@android:color/black" />
+
+            <!-- Lista de beneficios -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ° Detecta anomalías de inmediato"
+                android:textSize="16sp"
+                android:lineSpacingExtra="8dp"
+                android:gravity="start"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ° Alertas automáticas para ti y tus contactos de emergencia"
+                android:textSize="16sp"
+                android:lineSpacingExtra="8dp"
+                android:gravity="start"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="° Compartimos tu ubicación en tiempo real para una respuesta rápida."
+                android:textSize="16sp"
+                android:lineSpacingExtra="8dp"
+                android:gravity="start"
+                android:textColor="@android:color/black" />
+
+            <!-- Imagen representativa del monitoreo -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/img_img"
+                android:layout_marginTop="16dp"
+                android:contentDescription="Sistema de Monitoreo de Salud"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

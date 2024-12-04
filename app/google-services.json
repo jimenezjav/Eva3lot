@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "791749031231",
+    "project_id": "salud2-3f670",
+    "storage_bucket": "salud2-3f670.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791749031231:android:2848366d31609c8018cf8a",
+        "android_client_info": {
+          "package_name": "com.example.medidas_de_salud"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT0aEhLV0qsi9B9EJcew2kwe1RMVSWZ1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

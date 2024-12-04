@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vistas.AlertasFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/alerta_img"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+        <!-- Alertas y notificaciones del sistema-->
+        <TextView
+            android:id="@+id/textViewTituloAlertas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alertas y Notificaciones"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/textViewEstadoAlertas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estado de las Alertas: Activo"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/buttonProbarNotificacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:textColor="@android:color/white"
+            android:text="Probar Notificación"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</FrameLayout>
